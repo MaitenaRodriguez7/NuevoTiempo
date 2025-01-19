@@ -1,0 +1,435 @@
+/* COLORES */
+/*
+azul principal: #034e7c
+rosa suavecito: #fcebeb
+rosa medio: #f4d1ce
+rosa fuerte (iconos): #f4a490
+celeste claro: #1cacb7
+celeste oscuro: #0084aa
+negro del branding: #02141c
+blanco: #ffffff
+naranja (acento): #e57123
+*/
+@font-face {
+    font-family: mifuente;
+    src: url(Rethink_Sans/static/RethinkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: mifuenteextra;
+    src: url(../css/Rethink_Sans/static/RethinkSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: mifuentesemi;
+    src: url(../css/Rethink_Sans/static/RethinkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: mifuenteregular;
+    src: url(../css/Rethink_Sans/static/RethinkSans-Regular.ttf);
+}
+
+
+/****** header ********/
+
+
+.header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imglogont {
+    width: 250px;
+    padding-left: 30px;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'mifuente';
+    color: #034e7c;
+}
+
+.header a:hover {
+    color: #f4a490;
+}
+
+
+.secciones {
+    margin-top: 60px;
+}
+
+
+
+/****** Section 1 *******/
+
+.seccion1 {
+    display: flex;
+    background-image: url(../img/Fotos/hannah-busing-Zyx1bK9mqmA-unsplash\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.icono {
+    width: 70px;
+    height: 70px;
+}
+
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    font-family: 'mifuente';
+}
+
+
+/******* Seccion 2 ********/
+
+.seccion2 {
+    background-color: #034e7c;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: -30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'mifuentesemi';
+    color: #fff;
+
+}
+
+
+
+.parrafos {
+    color: #fff;
+    text-align: justify;
+    font-family: 'mifuenteregular';
+}
+
+.parrafos p {
+    margin-bottom: 1em;
+
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+.boton a {
+    background-color: #e57123;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.botoncontacto{
+    border-radius: 20px;
+    background-color: #e57123;
+    color:#fff ;
+    border: none;
+
+}
+
+
+/********* Seccion 3 ***********/
+
+.seccion3 {
+    background-color: #034e7c;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 0 0 20px 20px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.icono {
+    width: 70px;
+    height: 70px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'mifuente';
+}
+
+
+
+/********* Seccion 4 ***********/
+
+.seccion4 {
+    background-image: url(../img/Fotos/recurso\ 3\ Trama.svg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+.cuadro1{
+    background-color: #0084aa;
+    border-radius: 40px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cuadro2{
+    background-color:#1cacb7 ;
+    border-radius: 40px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cuadro3{
+    background-color: #034e7c;
+    border-radius: 40px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.cuadro4{
+    background-color:#f4a490 ;
+    border-radius: 40px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/********* Seccion5 *******/
+
+.seccion5 {
+    background-color: #fcebeb;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 60px;
+}
+
+.seccion6 {
+    background-color: #fcebeb;
+}
+
+.rompe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #f4a490;
+    font-family: 'mifuente';
+}
+
+/********* seccion7 *********/
+
+.seccion7{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start;
+    padding: 60px;
+}
+    
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/********** Footer **************/
+
+footer {
+    margin: 1%;
+    text-align: center;
+    padding: 5px;
+}
+
+.palabrasfooter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pfooter {
+    color: #034e7c;
+    font-family: "mifuenteregular";
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+
+.redessociales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoredes{
+    width: 40px;
+}
+
+.redes{
+    width: 25px;
+    
+}
+
+
+.formulario{
+    padding: 20px;
+}
+
+.grupoform{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#consulta{
+    width: 189px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Inicio Media Queries */
+
+
+@media (min-width: 800px) {
+    .navbar-custom {
+        display: block;
+    }
+
+
+    .menunav {
+        font-size: 18px;
+        padding-right: 30px;
+    }
+
+    .menunav ul {
+        display: flex;
+    }
+
+
+    li {
+        list-style: none;
+        margin-right: 30px;
+    }
+
+    .parrafos {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+
+    }
+
+
+    .seccion4p {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+        .cuadro2, .cuadro4{
+            margin-top: 40px;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .cuadro1, .cuadro3{
+            margin-bottom:  40px;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+
+
+    .seccion6{
+        display: grid;
+        
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .redessociales {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .redes {
+        display: flex;
+        width: 30px;
+        gap: 10px;
+    }
+    .grupoform{
+        width: 30%;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+
+    .botoncontacto{
+        display: block;
+        margin: auto;
+    }
+
+
+
+}
