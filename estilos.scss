@@ -1,0 +1,115 @@
+// _variables.scss
+$primary-color: #034e7c;
+$secondary-color: #fcebeb;
+$rosa-medio: #f4d1ce;
+$rosa-fuerte: #f4a490;
+$celeste-claro: #1cacb7;
+$celeste-oscuro: #0084aa;
+$negro-branding: #02141c;
+$blanco: #ffffff;
+$naranja-acento: #e57123;
+
+$font-family-primary: 'mifuente', url(Rethink_Sans/static/RethinkSans-Bold.ttf);
+$font-family-extra: 'mifuenteextra', url(../css/Rethink_Sans/static/RethinkSans-ExtraBold.ttf);;
+$font-family-semi: 'mifuentesemi', url(../css/Rethink_Sans/static/RethinkSans-SemiBold.ttf);
+$font-family-regular: 'mifuenteregular', url(../css/Rethink_Sans/static/RethinkSans-Regular.ttf);
+
+
+
+
+
+
+/****** header ********/
+
+
+.header{
+    display: flex;
+    background-color: $blanco;
+    justify-content: space-around;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        font-family: $font-family-primary;
+        color: $primary-color;
+    }
+
+    a:hover{
+        color: $rosa-fuerte;
+    }
+}
+
+
+.imglogont {
+    width: 250px;
+    padding-left: 30px;
+}
+
+
+
+
+/*** Cuadros Seccion 1/3/ ****/
+
+@mixin cuadros($fondo){
+    background-color: $fondo;
+    border-radius: 40px;
+    padding: 20px;
+    color: $blanco;
+    margin-bottom: 10px;
+}
+
+.cuadro1{
+    @include cuadros($celeste-oscuro)
+}
+.cuadro2{
+    @include cuadros($celeste-claro)
+}
+.cuadro3{
+    @include cuadros($primary-color)
+}
+.cuadro4{
+    @include cuadros($rosa-fuerte)
+}
+
+/**** Footer *******/
+
+$color-texto-footer:$primary-color ;
+$tamano-logo: 40px;
+$tamano-iconos-redes: 25px;
+$gap-palabras-footer: 20px;
+$gap-redes-sociales: 10px;
+
+footer {
+    margin: 1%;
+    text-align: center;
+    padding: 5px;
+
+    .palabrasfooter {
+        display: flex;
+        gap: $gap-palabras-footer;
+        align-items: center;
+
+        .logoredes {
+            width: $tamano-logo;
+        }
+
+        .pfooter {
+            color: $color-texto-footer;
+            font-family: $font-family-regular
+            margin-bottom 0;
+            font-size: 15px;
+        }
+
+        .redessociales {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: $gap-redes-sociales;
+
+            .redes {
+                width: $tamano-iconos-redes;
+            }
+        }
+    }
+}
+
