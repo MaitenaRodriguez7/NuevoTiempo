@@ -370,9 +370,14 @@ h1 {
         margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         width: 100%;
     }
     
+    .formulario{
+        width: 600px;
+        margin: auto;
+    }
     #consulta {
         width: 189px;
     }
