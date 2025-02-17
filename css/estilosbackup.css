@@ -84,7 +84,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'mifuentesemi';
     color: #fff;
 
@@ -107,21 +107,19 @@ h2 {
 .boton {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 20px;
-
+      
 }
 
 .boton a {
     background-color: #e57123;
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 
 }
-
-
 
 
 .botoncontacto {
@@ -129,7 +127,7 @@ h2 {
     background-color: #e57123;
     color: #fff;
     border: none;
-
+   
 }
 
 
@@ -185,10 +183,10 @@ h1 {
     background-color: #fcebeb;
     background-size: cover;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     padding: 60px;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
    }
 
 .seccion6 {
@@ -196,6 +194,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     padding: 20px;
+    
 }
 
 .rompe {
@@ -209,7 +208,7 @@ h1 {
 
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     color: #f4a490;
     font-family: 'mifuente';
 }
@@ -221,12 +220,14 @@ h1 {
     background-color:#1cacb7 ;
     padding: 60px;
     border-radius: 0 0 20px 20px;
+    gap: 20px;
 }
+
 
 .resultadosseccion{
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 50px;
 }
 .resultados{
@@ -244,38 +245,30 @@ h1 {
 
 /********* Seccion8 ***********/
 
-/*.seccion8 {
+.seccion8 {
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     padding: 20px;
     background-color: #1cacb7;
-}*/
+   min-height:80vh;
+}
 
-
-
-
-
+.grupoform{
+    display: flex;
+    flex-direction: column;
+}
 
 .formulario {
-    padding: 20px;
+    padding: 50px;
+   
 }
 
-.grupoform {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-#consulta {
-    width: 189px;
-}
-
-
-
-
-
-
+.botoncontacto {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    }
 
 
 
@@ -373,10 +366,23 @@ h1 {
         margin-bottom: 10px;
     }
 
+    .grupoform {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #consulta {
+        width: 189px;
+    }
+
     .botoncontacto {
         display: block;
         margin: auto;
-    }
+        margin-top: 40px;
+        padding: 10px;
+        }
 
 
 
