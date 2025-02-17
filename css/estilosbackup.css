@@ -36,7 +36,7 @@ naranja (acento): #e57123
 
 .secciones {
     margin-top: 60px;
-}
+    }
 
 
 
@@ -87,8 +87,7 @@ h2 {
     font-size: 30px;
     font-family: 'mifuentesemi';
     color: #fff;
-
-}
+     }
 
 
 
@@ -194,6 +193,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     padding: 20px;
+    min-height:80vh;
     
 }
 
@@ -250,7 +250,7 @@ h1 {
     border-radius: 0 0 20px 20px;
     padding: 20px;
     background-color: #1cacb7;
-   min-height:80vh;
+    min-height:80vh;
 }
 
 .grupoform{
@@ -300,6 +300,11 @@ h1 {
         margin-right: 30px;
     }
 
+    h1 {
+        font-size: 50px;
+        color: #f4a490;
+        font-family: 'mifuente';
+    }
     .parrafos {
         display: flex;
         justify-content: space-around;

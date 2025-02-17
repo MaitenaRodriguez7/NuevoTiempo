@@ -56,7 +56,7 @@ $font-family-regular: 'mifuenteregular', url(../css/Rethink_Sans/static/RethinkS
     padding: 20px;
     color: $blanco;
     margin-bottom: 10px;
-}
+     }
 
 .cuadro1{
     @include cuadros($celeste-oscuro)
